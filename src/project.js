@@ -1020,9 +1020,15 @@ window.__require = function e(t, n, o) {
           }).union().repeatForever().start()
         }, t.prototype.update = function (e) {
         }, t.prototype.adsButtonFunc2 = function () {
+<<<<<<< HEAD
           window.location.href = "http://chinaden.cn/meng_k/products_pic/image/2017081020050894894.jpg"
         }, t.prototype.bannerButtonFunc = function () {
           window.location.href = "http://chinaden.cn/meng_k/products_pic/image/2017081020050894894.jpg"
+=======
+          window.location.href = "https://cloud.xitek.com//pics/202102/102788/10278850/10278850_1612406078448.jpg"
+        }, t.prototype.bannerButtonFunc = function () {
+          window.location.href = "https://cloud.xitek.com//pics/202102/102788/10278850/10278850_1612406078448.jpg"
+>>>>>>> 8dd656dea05d83fe56389120e57f6bad6f4b271d
         }, t.prototype.ShowFailedUi = function (e, t) {
           var n = this;
           this.scheduleOnce(function () {
@@ -1984,7 +1990,11 @@ window.__require = function e(t, n, o) {
         }, t.prototype.update = function (e) {
           this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
         }, t.prototype.adsButtonFunc = function () {
+<<<<<<< HEAD
           window.location.href = "http://chinaden.cn/meng_k/products_pic/image/2017081020050894894.jpg";
+=======
+          window.location.href = "https://cloud.xitek.com//pics/202102/102788/10278850/10278850_1612406078448.jpg";
+>>>>>>> 8dd656dea05d83fe56389120e57f6bad6f4b271d
         }, t.prototype.TestPasslevel = function () {
           var e = this;
           this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function () {
